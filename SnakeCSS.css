@@ -1,0 +1,25 @@
+.main_container{
+    background-color: rgb(112, 211, 112);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:solid 10px rgb(42,114,42);
+}
+.container_top{
+    padding:0.5em 5em;
+    font: 50px bold;
+    text-align:center;
+}
+#board{
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+}
+#board a{
+    color:transparent;
+    user-select:none;
+    font-size:40px;
+    text-align:center;
+    line-height:1.5em;
+    border:solid 2px rgb(75, 161, 75);
+}
